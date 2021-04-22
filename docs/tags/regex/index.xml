@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regex on dndc.dev</title>
+    <link>https://dndc.dev/tags/regex/</link>
+    <description>Recent content in Regex on dndc.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://dndc.dev/tags/regex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python 正規表現メモ</title>
+      <link>https://dndc.dev/posts/regex-2021-01-07/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://dndc.dev/posts/regex-2021-01-07/</guid>
+      <description>&lt;p&gt;わりとよく使うのに一向に正規表現を覚えられない。&lt;br&gt;
+毎回調べ当てて、読んでよかったと思う資料リンクを残しておく。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

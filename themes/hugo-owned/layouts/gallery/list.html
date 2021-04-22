@@ -1,0 +1,15 @@
+{{ define "main"}}
+<div class="gallery-wrap">
+    {{ range ( where .Site.RegularPages.ByDate.Reverse "Type" "gallery" ) }}
+    <div class="gallery-item">
+        <a href="{{ .Permalink }}" title="{{ .Title }}">
+            {{ $image := .Page.Resources.GetMatch .Params.image }}
+            {{ with $image }}
+            {{ $thumb := .Fill "320x320 top" }}
+            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
+            {{end}}
+        </a>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

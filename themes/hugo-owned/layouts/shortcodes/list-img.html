@@ -1,0 +1,5 @@
+{{- range .Page.Resources.ByType "image" }}
+<figure>
+<img src="{{ .RelPermalink }}" alt="{{.Title}}">
+</figure>
+{{- end}}

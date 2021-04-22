@@ -1,0 +1,23 @@
+{{ define "main"}}
+<article>
+    {{ if not .Params.Private }}
+    <div class="post-wrap">
+        {{ range (.Paginator 6).Pages.ByPublishDate.Reverse }}
+            {{ if not .Params.Type }}
+                <div class="post-item">
+                    <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+                    <div class="post-meta">
+                        <time class="post-date">{{ dateFormat "2006-01-02" .Date }}</time>
+                        <ul class="tags">
+                            {{ range (.GetTerms "tags") }}
+                                <li class="tags"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+    {{ end }}
+</article>
+{{ end }}

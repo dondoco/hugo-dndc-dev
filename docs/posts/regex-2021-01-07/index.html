@@ -1,0 +1,68 @@
+<meta name="generator" content="Hugo 0.80.0" />
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>dndc.dev</title>
+    <meta name="description" content="Dondocoの忘備録兼成果物置き場" />
+    <link rel="icon" href="/img/favicon.gif">
+    <link rel="apple-touch-icon" sizes="180×180" href="./apple-touch-icon-180×180.png">
+
+
+    <link rel="stylesheet" href="/css/destyle.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/custom.css">
+</head><body>
+    <div class="container"><header>
+    <h1><a href="https://dndc.dev/">dndc.dev</a></h1>
+    <nav>
+        <ul>
+            
+            <li><a href="https://dndc.dev/posts/">Posts</a></li>
+            
+            <li><a href="https://dndc.dev/gallery/">Galleries</a></li>
+                        
+        </ul>
+    </nav>
+</header>
+<article>
+    <div class="post-item">
+        <h1 class="post-title"><a href="https://dndc.dev/posts/regex-2021-01-07/">Python 正規表現メモ</a></h1>
+        <div class="post-meta">
+            <time class="post-date">2021-01-07</time>
+            <ul class="tags">
+                
+                    <li class="tags"><a href="https://dndc.dev/tags/python/">Python</a></li>
+                
+                    <li class="tags"><a href="https://dndc.dev/tags/regex/">Regex</a></li>
+                
+            </ul>
+        </div>
+    </div>
+        <section class="post-content">
+            <p>わりとよく使うのに一向に正規表現を覚えられない。<br>
+毎回調べ当てて、読んでよかったと思う資料リンクを残しておく。</p>
+<h2 id="作業中に見るもの">作業中に見るもの</h2>
+<p><a href="https://userweb.mnet.ne.jp/nakama/">サルにもわかる正規表現入門</a><br>
+Pythonに限らず正規表現を理解できる。どんなシチュエーションで何の正規表現を書けばよいか理解できる。毎回見る良質な参考サイト。</p>
+<p><a href="https://miyabikno-jobs.com/tool-python-rechecker/">正規表現チェッカー for Python - みやびのどっとぴーわい</a><br>
+プリセットボタンが用意されており、あれってなんだっけ…と別タブを開きに行く頻度を落とせるチェッカー。</p>
+<p><a href="https://note.nkmk.me/python-re-match-search-findall-etc/">Pythonの正規表現モジュールreの使い方（match、search、subなど） | note.nkmk.me</a><br>
+Mayaの中のデータをいじるときに使うのは、<code>re.compile</code> からの <code>re.match</code> が多い。リネームや特定のshapeをリストに入れたいときに正規表現を使う。またはif文の条件分の真偽値を取得するのに使う事が多い。私のスキル不足なだけでもっと有用な使い方はあるだろう。</p>
+<p>なにかあれば追記する。</p>
+<h2 id="20210119-追記">2021/01/19 追記</h2>
+<p>正規表現をコンパイルするときに、rが付く場合がある。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> re
+
+num <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>compile(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;[0-9]*$&#39;</span>)
+</code></pre></div><p>など。このrについては<a href="https://docs.python.org/ja/3/library/re.html">公式ドキュメント</a>が詳しい。</p>
+<p>ちなみに、コンパイルはどんな時に使うかと言うと、Sphere9の英字と数字を分けたいな…と思ったときに数字だけの正規表現をコンパイルしておいて、合致した部分は捨てると数字だけ捨てて英字だけ残すいう処理ができる。主に連続したアセットやジョイントで新しく連番を振りたい時に使うと思う。</p>
+        </section>
+    </div>
+</article>
+<footer>
+    <small>&copy; 2021 dndc.dev</small>
+</footer></div>
+    </body>
+</html>

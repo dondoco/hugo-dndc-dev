@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maya on dndc.dev</title>
+    <link>https://dndc.dev/tags/maya/</link>
+    <description>Recent content in Maya on dndc.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Tue, 05 Jan 2021 10:25:00 +0900</lastBuildDate><atom:link href="https://dndc.dev/tags/maya/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maya たまに使う機能</title>
+      <link>https://dndc.dev/posts/maya-rarely-use-tools/</link>
+      <pubDate>Tue, 05 Jan 2021 10:25:00 +0900</pubDate>
+      
+      <guid>https://dndc.dev/posts/maya-rarely-use-tools/</guid>
+      <description>&lt;p&gt;以下列挙 &amp;amp; 随時追記&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

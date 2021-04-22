@@ -1,0 +1,12 @@
+baseURL = "https://dndc.dev/"
+languageCode = "ja-JP"
+title = "dndc.dev"
+theme = "hugo-owned"
+publishDir = "docs"
+HasCJKLanguage = true
+
+[params]
+    description = "Dondocoの忘備録兼成果物置き場"
+    favicon = "img/favicon.gif"
+    copyright = "dndc.dev"
+
