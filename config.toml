@@ -1,4 +1,4 @@
-baseURL = "https://dndc.dev/"
+baseURL = "https://archive1.dndc.dev/"
 languageCode = "ja-JP"
 title = "dndc.dev"
 theme = "hugo-owned"
