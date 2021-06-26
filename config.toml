@@ -1,4 +1,4 @@
-baseURL = "https://archive1.dndc.dev/"
+baseURL = "https://www.dndc.dev/"
 languageCode = "ja-JP"
 title = "dndc.dev"
 theme = "hugo-owned"
@@ -7,6 +7,6 @@ HasCJKLanguage = true
 
 [params]
     description = "Dondocoの忘備録兼成果物置き場"
-    favicon = "img/favicon.gif"
+    favicon = "img/favicon.png"
     copyright = "dndc.dev"
 

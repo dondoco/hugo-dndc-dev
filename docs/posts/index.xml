@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on dndc.dev</title>
-    <link>https://archive1.dndc.dev/posts/</link>
+    <link>https://www.dndc.dev/posts/</link>
     <description>Recent content in Posts on dndc.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 19 Feb 2021 21:10:44 +0900</lastBuildDate><atom:link href="https://archive1.dndc.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Feb 2021 21:10:44 +0900</lastBuildDate><atom:link href="https://www.dndc.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ウェブサイト 2.0</title>
-      <link>https://archive1.dndc.dev/posts/website-hugo-version2/</link>
+      <link>https://www.dndc.dev/posts/website-hugo-version2/</link>
       <pubDate>Fri, 19 Feb 2021 21:10:44 +0900</pubDate>
       
-      <guid>https://archive1.dndc.dev/posts/website-hugo-version2/</guid>
+      <guid>https://www.dndc.dev/posts/website-hugo-version2/</guid>
       <description>ウェブサイト更新しました。 バージョン2ではそこそこ真面目にCSSを書いたのと、画像のサムネイル表示に対応した。技術選定をした挙げ句きちんと手</description>
     </item>
     
